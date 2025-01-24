@@ -1,4 +1,4 @@
-### Week08～10課題「FlaskでWebサービスを作成する」用Dockerファイルのサンプルです
+### week08課題「FlaskでWebサービスを作成する」用Dockerファイルのサンプルです
 以下の手順で環境を構築ください。
 
 ## ■■■ Linux（本番環境）の構築方法 ■■■
@@ -20,7 +20,7 @@ cd flask
 docker compose down; docker compose up -d --build
 ```
 
-#### WindowsのWebブラウザーで[http://192.168.56.102:5000/](http://192.168.56.102:5000/)にアクセスする
+#### WindowsのWebブラウザーで[http://192.168.56.102/](http://192.168.56.102/)にアクセスする
 - アプリ画面が表示したらOK
 
 ## ■■■ Windows（開発環境）の構築方法 ■■■
@@ -70,8 +70,8 @@ pip install -r requirements.txt
 .\.venv\Scripts\activate
 ```
 2. 左側のツリービューから`src\app.py`を開く
-1. 右下の表示が`Python 3.12.6('.venv')`になっていることを確認する。
-  3-1. `Python 3.12.6('.venv')`以外になっている場合は切り替える
+1. 右下の表示が`Python 3.12.7('.venv')`になっていることを確認する。
+  3-1. `Python 3.12.7('.venv')`以外になっている場合は切り替える
 1. `実行とデバッグ`を開く
 1. リンク`launch.jsonファイルを作成します`をクリックする
 1. デバッガーの種類から`Python Debugger`を選択する
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ```
 - 左側のツリービューから`src\app.py`を開く
   - 右下の表示が`Python 3.12.6('.venv')`になっていることを確認する。
-  - `Python 3.12.6('.venv')`以外になっている場合は切り替える
+  - `Python 3.12.7('.venv')`以外になっている場合は切り替える
 - F5キーを押す
   - ターミナルに「* Running on [http://127.0.0.1:5000](http://127.0.0.1:5000)」と表示するので、Ctrlキーを押しながらURLをクリックする
   - Webブラウザーが開き、アプリ画面が表示したらOK
